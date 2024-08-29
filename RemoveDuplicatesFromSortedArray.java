@@ -20,9 +20,7 @@ public class RemoveDuplicatesFromSortedArray {
             }
         }
 
-        int[] nums = numbersList.stream().mapToInt(i -> i).toArray();
-
-        return nums;
+        return numbersList.stream().mapToInt(i -> i).toArray();
     }
 
     static void removeDuplicates(int[] nums) {
