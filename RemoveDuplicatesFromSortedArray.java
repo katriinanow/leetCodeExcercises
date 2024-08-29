@@ -1,5 +1,10 @@
 // https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/
 
+/*
+This code version won't run in LeetCode verifier, as it includes more than just a method for removing duplicates.
+For verification to work, one needs to copy removeDuplicates method body and uncomment return statement.
+*/
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -38,6 +43,9 @@ public class RemoveDuplicatesFromSortedArray {
         }
         System.out.print(j + ", ");
         System.out.println(Arrays.toString(nums));
+
+        //return statement for LeetCode verification field
+        //return j;
     }
 
     public static void main(String[] args) {
